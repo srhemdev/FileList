@@ -26,7 +26,7 @@ const Table: React.FC<TableProps> = ({ data, config }) => {
       <tbody>
         {data.map((item: any, index: number) => {
           return (
-            <TableRow key={item.id} data={item} config={config} aria-rowindex={index + 1} />
+            <TableRow key={index} data={item} config={config} aria-rowindex={index + 1} />
           )
         })}
       </tbody>
