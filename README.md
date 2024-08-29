@@ -7,6 +7,7 @@
   - Install node using https://formulae.brew.sh/formula/node. 
   - Install yarn https://formulae.brew.sh/formula/yarn
   - For Windows users try installing with npm.
+- Run `cd FileList` under the directory where you cloned the repository.
 - Once the above is completed, run `yarn`. This will download all the necessary dependencies listed in package.json which is required to run this app. It will also generate a yarn.lock file.
 - Run `yarn start`. This will launch the app locally in the development mode.
 - Open [http://localhost:3000] to view it in the browser.
