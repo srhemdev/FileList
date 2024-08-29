@@ -1,0 +1,14 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader>svg {
+  font-size: 1.5rem;
+}
+
+.loader>span {
+  padding-left: 0.5rem;
+}

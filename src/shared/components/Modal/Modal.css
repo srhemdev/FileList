@@ -1,0 +1,21 @@
+button {
+  cursor: pointer;
+}
+
+.modal {
+  max-width: 40rem;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem 0.25rem hsl(0 0% 0% / 10%);
+}
+
+.modal::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+
+.modal-close-btn {
+  font-size: 1em;
+  position: absolute;
+  top: .25em;
+  right: .25em;
+}

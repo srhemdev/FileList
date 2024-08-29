@@ -1,0 +1,16 @@
+.modal-content {
+  overflow: auto;
+  padding-top: 1rem;
+  height: 45vh;
+}
+
+.modal-content>ul.selected-files-list {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+}
+
+.modal-content>ul.selected-files-list>li {
+  padding-top: 1rem;
+}

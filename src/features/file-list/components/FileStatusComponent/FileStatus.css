@@ -1,0 +1,7 @@
+.file-status {
+  display: flex;
+}
+
+.file-status>div:first-child {
+  width: 1.2rem;
+}

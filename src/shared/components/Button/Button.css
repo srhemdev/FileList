@@ -1,0 +1,30 @@
+.btn {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+}
+
+.btn>span {
+  padding-left: 0.6rem;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  color: #D3D3D3;
+}
+
+.btn-clear {
+  background-color: white;
+  color: #808080;
+}
+
+.btn-clear:not(:disabled):hover {
+  color: #636363;
+}

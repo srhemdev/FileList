@@ -1,0 +1,22 @@
+.table-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #dddd;
+  border-bottom: none;
+}
+
+.table-header>div {
+  min-width: 10rem;
+}
+
+.table-header .selected-count {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 0.5rem;
+}
+
+.table-header button {
+  margin: 0 0 0 1.5rem;
+  font-size: 1.1rem;
+}
