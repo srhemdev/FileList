@@ -14,3 +14,7 @@
 .modal-content>ul.selected-files-list>li {
   padding-top: 1rem;
 }
+
+.modal-content .no-files-message {
+  text-align: center;
+}

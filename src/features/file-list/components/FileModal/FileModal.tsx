@@ -20,7 +20,7 @@ const FileModal: React.FC<FileModalProps> = ({ isOpen, setIsOpen, selectedFiles 
     <Modal isOpen={isOpen} hasCloseBtn onClose={() => setIsOpen(false)}>
       <div className="modal-content">
         <h3>The following available files can be downloaded:</h3>
-        {selectedFiles.length === 0 && <div>No Available Files</div>}
+        {selectedFiles.length === 0 && <div className="no-files-message">No Available Files</div>}
         {selectedFiles.length > 0 && (
           <ul className="selected-files-list">
             {selectedFiles.map((file: FileProps) => (
