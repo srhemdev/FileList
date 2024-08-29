@@ -19,7 +19,7 @@ const Table: React.FC<TableProps> = ({ data, config }) => {
     return config.map(({ name }) => name);
   }, [config])
   return (
-    <table>
+    <table className="table-component">
       <thead>
         <TableColumns columns={columns} />
       </thead>
