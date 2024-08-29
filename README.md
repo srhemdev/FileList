@@ -4,8 +4,8 @@
 ## Steps 
 - In order to clone the File List app type `git clone https://github.com/srhemdev/FileList.git` from your terminal. Alternatively you can just download the zip file.
 - If you do not have `yarn` or `node` set up locally on your machine, please install it using `brew`(should be available on Mac). 
-  - Install node using https://formulae.brew.sh/formula/node. 
-  - Install yarn https://formulae.brew.sh/formula/yarn
+  - Install node using https://formulae.brew.sh/formula/node. [Please use node version 20.10.0 and npm version 10.23]
+  - Install yarn https://formulae.brew.sh/formula/yarn [Please use yarn version 1.22.22]
   - For Windows users try installing with npm.
 - Run `cd FileList` under the directory where you cloned the repository.
 - Once the above is completed, run `yarn`. This will download all the necessary dependencies listed in package.json which is required to run this app. It will also generate a yarn.lock file.
