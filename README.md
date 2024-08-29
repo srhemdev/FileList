@@ -1,9 +1,8 @@
 # File List App
-  File List App is a simple app which contains a list of files. It consists of a table and a header. The table displays list of all the files and each individual file details. The header shows the total number of selected files as well as a download button. You can single/multi select/deselect the files. Only available files can be dowloaded. On clicking the download button a modal shows up which shows the list of downloadable(available) files;
-
+  File List App is a simple app which contains a list of files. It consists of a table and a header. The table displays list of all the files and each individual file details. The header shows the total number of selected files as well as a download button. You can single/multi select/deselect the files. Only available files can be dowloaded. On clicking the download button a modal shows up which shows the list of downloadable(available) files.
 
 ## Steps 
-- In order to clone the File List app 
+- In order to clone the File List app type `git clone https://github.com/srhemdev/FileList.git` form your terminal. Alternatively you can just download the zip file.
 - If you do not have `yarn` or `node` set up locally on your machine, please install it using `brew`(should be available on Mac). 
   - Install node using https://formulae.brew.sh/formula/node. 
   - Install yarn https://formulae.brew.sh/formula/yarn
