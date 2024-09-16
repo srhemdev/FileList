@@ -23,7 +23,7 @@ describe("Table Header Component", () => {
     const onDownload = jest.fn();
     render(<TableHeader data={TABLE_DATA} onDownload={onDownload} />);
     const downloadBtnElement = screen.getByText(/Download Selected/i);
-    expect(downloadBtnElement).toBeInTheDocument;
+    expect(downloadBtnElement).toBeInTheDocument();
     expect(downloadBtnElement.parentElement).toBeDisabled();
   });
 
